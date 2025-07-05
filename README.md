@@ -18,13 +18,13 @@ An end-to-end **Retrieval-Augmented Generation (RAG)** based chatbot that answer
 ## 🧱 Project Structure
 
 rag_pdf_qa_bot/
-├── app.py # Streamlit app UI
-├── ingest.py # PDF reading, chunking, and FAISS indexing
-├── qa_chain.py # RetrievalQA chain setup with prompt
-├── requirements.txt # All dependencies
-├── sample.pdf # Your input PDF (you can replace this)
-└── faiss_index/ # Saved vector store (generated after ingest)
+- ├── app.py # Streamlit app UI
+- ├── ingest.py # PDF reading, chunking, and FAISS indexing
+- ├── qa_chain.py # RetrievalQA chain setup with prompt
+- ├── requirements.txt # All dependencies
+- ├── sample.pdf # Your input PDF (you can replace this)
+- └── faiss_index/ # Saved vector store (generated after ingest)
 
 ✍️ Author
-Devesh Maithani
-Full Stack Developer | Aspiring Data Scientist
+- Devesh Maithani
+- Full Stack Developer | Aspiring Data Scientist
