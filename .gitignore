@@ -1,0 +1,25 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.env
+.env
+
+# FAISS index
+faiss_index/
+
+# Streamlit cache
+.streamlit/
+
+# Virtual environment
+venv/
+rag-env/
+
+# System files
+.DS_Store
+Thumbs.db
+c.pdf
